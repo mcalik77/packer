@@ -1,8 +1,8 @@
 {
     "variables": {
-        "client_id": "20d3a35d-6aed-47f0-8d85-ce361fa5e045",
-        "client_secret": "IIv.nmnbl1_nKI7uT0R7s.DtfYv.WQDu0E",
-        "object_id": "1c1e3c93-a8fc-473e-bb29-a2103e381637"
+        "client_id": "",
+        "client_secret": "",
+        "object_id": ""
     },
     "builders": [{
       "type": "azure-arm",
@@ -10,10 +10,10 @@
       "client_id": "{{user `client_id`}}",
       "object_id": "{{user `object_id`}}",
       "client_secret": "{{user `client_secret`}}",
-      "resource_group_name": "linux_academy",
-      "storage_account": "mcterraformfiles",
-      "subscription_id": "db992093-1bdb-45d4-abe6-5a9f6bde8eef",
-      "tenant_id": "10621b9d-732d-4608-892a-f311c59ba569",
+      "resource_group_name": "",
+      "storage_account": "",
+      "subscription_id": "",
+      "tenant_id": "",
   
       "capture_container_name": "vhds",
       "capture_name_prefix": "packer",
